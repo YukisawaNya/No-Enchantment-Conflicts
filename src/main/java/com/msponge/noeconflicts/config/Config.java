@@ -21,6 +21,7 @@ public class Config{
     public boolean ProtectionEnchantments = true;
     public boolean InfinityEnchantment = true;
     public boolean PiercingEnchantment = true;
+    public boolean TridentAsWeapon = true;
     public transient Level log;
 
     public static void loadConfig(){
