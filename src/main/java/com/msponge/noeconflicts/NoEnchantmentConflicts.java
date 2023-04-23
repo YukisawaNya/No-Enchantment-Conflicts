@@ -25,6 +25,7 @@ public class NoEnchantmentConflicts implements ModInitializer {
 		log(Level.INFO, "version " + MOD_VER);
         Config.loadConfig();
         log(Level.INFO, "Initialized successfully.");
+		Config.saveConfigs();
 	}
 
 	public static void log(Level level, String message){

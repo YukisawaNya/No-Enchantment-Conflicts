@@ -8,7 +8,9 @@
     "ProtectionEnchantmentMixin",
     "InfinityEnchantmentMixin",
     "MultishotEnchantmentMixin",
-    "PiercingEnchantmentMixin"
+    "PiercingEnchantmentMixin",
+    "EnchantmentMixin",
+    "accessor.EnchantmentAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
